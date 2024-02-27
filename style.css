@@ -1,0 +1,248 @@
+@import url(https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap);
+
+*{
+ padding: 0;
+ margin: 0; 
+ font-family: "Cairo", sans-serif;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+
+
+a img{
+    width: 50px;
+    padding: 1px;
+}
+
+nav a{
+    color: rgb(115, 20, 104);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+}
+nav a:hover{
+    color: crimson;
+    font-weight: 900;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://www.portices.fr/wp-content/uploads/2020/03/interet-world-wide-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    padding: 10px 100px;
+}
+
+.content h2{
+    color: rgb(44, 13, 46);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.content h2 span{
+    color: rgb(81, 9, 95);
+    font-size: x-large;
+}
+
+.content h3{
+    color: rgb(69, 2, 29);
+    font-size: 55px;
+}
+
+.Contact-Me{
+    display: inline-block;
+    color: rgb(244, 241, 237);
+    background-color: rgb(173, 17, 25);
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.Contact-Me:hover{
+    transform:scale(1.1) ;
+    background-color: rgb(199, 74, 29);
+
+}
+
+.whatsapp{
+    color: rgb(19, 250, 27);
+    font-size: 30px;
+}
+
+.facebook{
+    color: rgb(13, 37, 252);
+    font-size: 30px;
+}
+
+.messenger{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.our-services{
+    text-align: center;
+    background-color: #eee;
+    
+}
+.our-services h2{
+    color: rgb(6, 113, 113) ;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.our-services p1 {
+    color: rgb(49, 22, 204);
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: flex;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+
+.box{
+    background-color:white ;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #e4e3e3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    background-color: #f8f8f8;
+    border-radius: 4px; 
+    box-shadow: 0 5px 5px blueviolet;
+    transform: scale(1.1);
+}
+
+.box h3{
+    color: brown;
+}
+
+.box p{
+    color: rgb(93, 2, 116);
+    font-size: 18px;
+}
+
+.our-jops h3{
+    text-align: center;
+    color: rgb(6, 113, 113);
+    font-size: 35px;
+    
+}
+
+.our-jops p{
+    text-align: center;
+    color: rgb(49, 22, 204);
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.photos {
+    display: flex;
+}
+
+.photo{
+    margin: 5px;
+}
+.photos img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact-us{
+    background-color: #eee;
+    text-align: center;
+}
+
+.contact-us h2{
+    color: rgb(6, 113, 113) ;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.contact-us p {
+    color: rgb(49, 22, 204);
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.contact-area{
+    width: 60%;
+    background-color: #f8f8f8;
+    margin: 20px auto;
+    padding: 35px;
+    border: 1px solid #e8e7e7;
+    border-radius: 10px;
+}
+
+.form-input input{
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #e8e7e7;
+}
+
+.form-input textarea{
+    width: 60%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid #e8e7e7;
+}
+
+.send{
+   padding: 10px 25px;
+   background-color: rgb(6, 113, 113); 
+   color: aliceblue;
+   font-size: 16px;
+   border-radius: 6px;
+   border: none;
+   cursor: pointer;
+   transition: all 0.2s ease;
+}
+
+.send:hover{
+    background-color: aquamarine;
+    transform: scale(1.1);
+}
+
+footer p{
+    border-top: 2px solid red;
+    background-color: rgb(42, 46, 46);
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+
